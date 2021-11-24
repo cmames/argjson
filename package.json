@@ -1,6 +1,6 @@
 {
   "name": "argjson",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "argv parser for node.js",
   "main": "argjs.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cmames/argjs.git"
+    "url": "git+https://github.com/cmames/argjson.git"
   },
   "keywords": [
     "arg",
