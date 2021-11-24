@@ -1,6 +1,5 @@
 # argjson
 
-![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=cmames&repo=argjson&theme=aura)
 
 [![GitHub license](https://img.shields.io/github/license/cmames/argjson)](https://github.com/cmames/argjson/blob/main/LICENSE)
 ![GitHub last commit](https://img.shields.io/github/last-commit/cmames/argjson)
