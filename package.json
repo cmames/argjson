@@ -1,0 +1,25 @@
+{
+  "name": "@cmames/argjs",
+  "version": "1.0.0",
+  "description": "arg parser",
+  "main": "argjs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmames/argjs.git"
+  },
+  "keywords": [
+    "arg",
+    "args",
+    "parse",
+    "parser"
+  ],
+  "author": "cmames",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/cmames/argjs/issues"
+  },
+  "homepage": "https://github.com/cmames/argjs#readme"
+}
