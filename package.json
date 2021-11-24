@@ -1,5 +1,5 @@
 {
-  "name": "argjs",
+  "name": "argjson",
   "version": "1.0.0",
   "description": "argv parser for node.js",
   "main": "argjs.js",
@@ -9,9 +9,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cmames/argjs.git"
-  },
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
   },
   "keywords": [
     "arg",
@@ -25,7 +22,7 @@
   "author": "cmames",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/cmames/argjs/issues"
+    "url": "https://github.com/cmames/argjson/issues"
   },
-  "homepage": "https://github.com/cmames/argjs#readme"
+  "homepage": "https://github.com/cmames/argjson#readme"
 }
