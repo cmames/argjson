@@ -1,6 +1,16 @@
-# argjs
+# argjson
 
-## still in beta, please wait for V1.1 
+
+[![GitHub license](https://img.shields.io/github/license/cmames/argjson)](https://github.com/cmames/argjson/blob/main/LICENSE)
+![GitHub last commit](https://img.shields.io/github/last-commit/cmames/argjson)
+
+![GitHub top language](https://img.shields.io/github/languages/top/cmames/argjson)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/cmames/argjson)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/cmames/argjson)
+
+![Code Grade](https://www.code-inspector.com/project/30015/score/svg)
+![Code Grade](https://www.code-inspector.com/project/30015/status/svg)
+
 
 :uk: an argument parser for node.js 
 > :fr: un parser d'arguments pour node.js.
