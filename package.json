@@ -1,7 +1,7 @@
 {
   "name": "argjs",
   "version": "1.0.0",
-  "description": "arg parser",
+  "description": "argv parser for node.js",
   "main": "argjs.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,9 +15,12 @@
   },
   "keywords": [
     "arg",
+    "argv",
     "args",
+    "argument",
     "parse",
-    "parser"
+    "parser",
+    "node"
   ],
   "author": "cmames",
   "license": "GPL-3.0-or-later",
