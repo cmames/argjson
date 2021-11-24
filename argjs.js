@@ -99,5 +99,6 @@ exports.parse=function () {
       default: ajs[key].value=a.shift();
     }    
   }
+  if (ajs["help"]) display(0);
   return ajs;
 }

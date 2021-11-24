@@ -1,6 +1,6 @@
 {
   "name": "argjson",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "argv parser for node.js",
   "main": "argjs.js",
   "scripts": {
