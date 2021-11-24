@@ -1,5 +1,5 @@
-// argjs by C. Mames is licensed under the GNU General Public License v3.0 
-// https://github.com/cmames/argjs 
+// argjson by C. Mames is licensed under the GNU General Public License v3.0 
+// https://github.com/cmames/argjson
 
 var ajs = {
   help: {
@@ -70,9 +70,12 @@ exports.parse=function () {
     if (e.charAt(0)==="-") { //long arg
       e=e.slice(1);
       key=e;
+      if(!ajs[key]) {
+        console.error("unknown argument --"+key);
+        display(1);  
+      }
     }
     else { //short arg
-      e=e.slice(1);
       while (e.length>1) { //multiple short
         a.push("-"+e.charAt(0));
         e=e.slice(1);
@@ -80,6 +83,10 @@ exports.parse=function () {
       Object.keys(ajs).forEach(function (k) { //search key for short
         if (ajs[k].short===e) key=k;
       });
+      if(!ajs[key]) {
+        console.error("unknown argument -"+e);
+        display(1);  
+      }
     }
     switch (typeof ajs[key].value) {
       case "boolean": ajs[key].value=true;break;
