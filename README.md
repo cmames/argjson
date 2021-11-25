@@ -98,6 +98,10 @@ argjson.add({
         default:{}
 });
 ```
+or
+```
+argjson.add(...).add(...).add(...).add(...)
+```
 once the arguments are defined, you just have to launch the parser
 ```
 var argv=argjson.parse();
@@ -176,6 +180,10 @@ node myfile.js --file test.txt --tab "[1, 3, 5, 42]" --size 1024 --factor 1.27 -
 >         default:{}
 > });
 > ```
+> ou
+> ```
+> argjson.add(...).add(...).add(...).add(...)
+>```
 > une fois les arguments définis il suffit de lancer le parser
 > ```
 > var argv=argjson.parse();
