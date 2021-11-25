@@ -18,7 +18,7 @@ exports.add = function (base) {
   ajs[base.arg].desc = base.description;
   if (base.short && base.short.length > 1) throw new TypeError(" '" + base.short + "' short argument must be just one char");
   ajs[base.arg].short = base.short;
-  return ajs;
+  return this;
 }
 
 function display(ret) {
