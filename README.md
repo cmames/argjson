@@ -2,7 +2,7 @@
 
 
 [![GitHub license](https://img.shields.io/github/license/cmames/argjson)](https://github.com/cmames/argjson/blob/main/LICENSE)
-![GitHub last commit](https://img.shields.io/github/last-commit/cmames/argjson)
+![GitHub last commit](https://img.shields.io/github/last-commit/cmames/argjson) Still Active Project
 
 ![GitHub top language](https://img.shields.io/github/languages/top/cmames/argjson)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/cmames/argjson)
