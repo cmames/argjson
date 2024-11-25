@@ -1,5 +1,6 @@
 // argjson by C. Mames is licensed under the GNU General Public License v3.0 
 // https://github.com/cmames/argjson
+// last edited : 25/11/2024
 
 var ajs = {
   help: {
