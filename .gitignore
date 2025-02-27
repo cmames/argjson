@@ -1,0 +1,30 @@
+# Général Node.js
+node_modules/
+package-lock.json
+npm-debug.log
+
+# Dossier de compilation TypeScript
+dist/
+
+# Fichiers de logs et temporaires
+*.log
+*.tmp
+temp/
+tmp/
+
+# Fichiers d'environnement (si vous en utilisez)
+.env
+*.env.local
+*.env.*.local
+
+#  Dossier de couverture de test (si vous ajoutez des tests avec couverture)
+coverage/
+
+#  Fichiers générés par l'éditeur (ex: VS Code)
+.vscode/
+
+#  Script local pour github
+.github/scripts/
+
+#  tokens
+token*
