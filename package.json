@@ -1,6 +1,6 @@
 {
   "name": "argjson",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "argv parser for node.js",
   "main": "argjs.js",
   "scripts": {
@@ -24,5 +24,11 @@
   "bugs": {
     "url": "https://github.com/cmames/argjson/issues"
   },
-  "homepage": "https://github.com/cmames/argjson#readme"
+  "homepage": "https://github.com/cmames/argjson#readme",
+  "files": [
+    "argjs.js",
+    "README.md",
+    "LICENSE"
+  ]
+
 }
